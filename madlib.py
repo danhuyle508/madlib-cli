@@ -25,3 +25,5 @@ def replace_word(line, old_word, new_word):
 def find_all_instances(line):
     regex = r"{[^{]+}"
     return re.findall(regex, line)
+if __name__ == '__main__':
+    fill_mad_lib('text.txt')
